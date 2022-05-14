@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator with using tailwindcss</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="main.js"></script>
+</head>
+<body class=" dark:bg-[#131417] bg-slate-100 h-screen flex justify-center items-center">
+    <div class="h-80 w-80 shadow-xl rounded-lg bg-white">
+        <div class="flex flex-col px-5 mt-10">
+            <div>
+                <label>weight (in kg)</>
+                <input type="text" required id="weight" class="mt-1 mb-6 form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 dark:focus:border-purple-800 focus:border-2 focus:outline-none">
+            </div>
+            <div>
+                <label>height (in cm)</>
+                <input type="text" required id="height" class="mt-1 form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 dark:focus:border-purple-800 focus:border-2 focus:outline-none">
+            </div>
+        </div>
+        <div class="flex justify-center items-center mt-6">
+            <button id="btn" class="dark:bg-purple-800 bg-blue-600 text-white py-1 px-5 rounded-2xl">Check</button>
+        </div>
+        <p id="result" class="flex justify-center mt-5"></p>
+    </div>
+</body>
+</html>
