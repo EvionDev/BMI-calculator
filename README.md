@@ -6,7 +6,6 @@
   ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 I made bmi calculator using html5, tailwindcss and js
-<hr>
 
 
 Download files via zip and unpacked and just run to test I'm using CDN tailwindcss, so you don't need to use NPM to install tailwindcss  you can also use git clone
