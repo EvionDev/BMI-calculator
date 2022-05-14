@@ -7,4 +7,6 @@
 
 I made bmi calculator using html5, tailwindcss and js
 <hr>
+
+
 Download files via zip and unpacked and just run to test I'm using CDN tailwindcss, so you don't need to use NPM to install tailwindcss  you can also use git clone
